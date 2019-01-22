@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Alina Pochtar](https://up.htmlacademy.ru/htmlcss/24/user/949303).
-* Наставник: `Неизвестно`.
+* Наставник: [Георгий Гусаков](https://htmlacademy.ru/profile/georgegus27).
 
 ---
 _Не удаляйте и не обращайте внимание на файлы:_<br>
