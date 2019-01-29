@@ -34,88 +34,97 @@
           <li><a href="#">Моноподы для селфи</a></li>
         </ul>
       </nav>
-      <section class=filters>
-      <div class="price">
-        <form action="#" method="post">
-        <label for="price-range"><h3>Стоимость</h3></label>
-          0 <input type="range" id="price-range" name="price-range" min="0" max="10000" step="1"> 10000
-      </form>
-      <div class="colors">
-      <h3>Цвет</h3>
-        <form action="#" method="post">
-          <input type="checkbox" name="color" id="color-field" checked>
-          <label for="color-field">Черный</label>
-          <input type="checkbox" name="color" id="color-field">
-          <label for="color-field">Белый</label>
-          <input type="checkbox" name="color" id="color-field" checked>
-          <label for="color-field">Синий</label>
-          <input type="checkbox" name="color" id="color-field" checked>
-          <label for="color-field">Красный</label>
-          <input type="checkbox" name="color" id="color-field">
-          <label for="color-field">Розовый</label>
-        </form>
-      </div><!-- colors-->
-      <div class="bluetooth">
-        <h3>Bluetooth</h3>
+      <div class="filters">
+        <div class="price">
           <form action="#" method="post">
-            <label>
-              <input type="radio" name="question-one" value="yes" checked>
-              Есть
-            </label>
-            <label>
-              <input type="radio" name="question-one" value="no">
-              Нет
-            </label>
+          <label for="price-range"><h2>Стоимость</h2></label>
+            0 <input type="range" id="price-range" name="price-range" min="0" max="10000" step="1"> 10000
           </form>
-      </div> <!--bluetooth-->
-      <a href="#">Показать</a>
-    </section><!--filters-->
-    <section class="items">
-      <div class="catalogue-item">
-        <img src="http://placehold.it/150x100" alt="catalogue-item">
-        <h4>Любительская селфи-палка</h4>
-        <p>500 руб.</p>
-      </div>
-      <div class="catalogue-item">
-        <img src="http://placehold.it/150x100" alt="catalogue-item">
-        <h4>Профессиональная селфи-палка</h4>
-        <p>1500 руб.</p>
-      </div>
-      <div class="catalogue-item">
-        <img src="http://placehold.it/150x100" alt="catalogue-item">
-        <h4>Непотопляемая селфи-палка</h4>
-        <p>2500 руб.</p>
-      </div>
-      <div class="catalogue-item">
-        <img src="http://placehold.it/150x100" alt="catalogue-item">
-        <h4>Селфи-палка «Следуй за мной»</h4>
-        <p>4900 руб.</p>
-      </div>
-    </section><!--items-->
+        </div> <!-- price -->
+        <div class="colors">
+        <h2>Цвет</h2>
+          <form action="#" method="post">
+            <input type="checkbox" name="color" id="color-field" checked>
+            <label for="color-field">Черный</label>
+            <input type="checkbox" name="color" id="color-field">
+            <label for="color-field">Белый</label>
+            <input type="checkbox" name="color" id="color-field" checked>
+            <label for="color-field">Синий</label>
+            <input type="checkbox" name="color" id="color-field" checked>
+            <label for="color-field">Красный</label>
+            <input type="checkbox" name="color" id="color-field">
+            <label for="color-field">Розовый</label>
+          </form>
+        </div><!-- colors-->
+        <div class="bluetooth">
+          <h2>Bluetooth</h2>
+            <form action="#" method="post">
+              <label>
+                <input type="radio" name="question-one" value="yes" checked>
+                Есть
+              </label>
+              <label>
+                <input type="radio" name="question-one" value="no">
+                Нет
+              </label>
+            </form>
+        </div> <!--bluetooth-->
+        <a href="#">Показать</a>
+      </div><!--filters-->
+      <div class="items">
+        <div class="catalogue-item">
+          <img src="http://placehold.it/150x100" alt="catalogue-item">
+          <a href="#">В корзину</a>
+          <a href="#">Добавить к сравнению</a>
+          <a href="#"><h2>Любительская селфи-палка</h2></a>
+          <p>500 руб.</p>
+        </div>
+        <div class="catalogue-item">
+          <img src="http://placehold.it/150x100" alt="catalogue-item">
+          <a href="#">В корзину</a>
+          <a href="#">Добавить к сравнению</a>
+          <a href="#"><h2>Профессиональная селфи-палка</h2></a>
+          <p>1500 руб.</p>
+        </div>
+        <div class="catalogue-item">
+          <img src="http://placehold.it/150x100" alt="catalogue-item">
+          <a href="#">В корзину</a>
+          <a href="#">Добавить к сравнению</a>
+          <a href="#"><h2>Непотопляемая селфи-палка</h2></a>
+          <p>2500 руб.</p>
+        </div>
+        <div class="catalogue-item">
+          <img src="http://placehold.it/150x100" alt="catalogue-item">
+          <a href="#">В корзину</a>
+          <a href="#">Добавить к сравнению</a>
+          <a href="#"><h2>Селфи-палка «Следуй за мной»</h2></a>
+          <p>4900 руб.</p>
+        </div>
+      </div><!--items-->
     </main>
     <footer class="page-footer">
         <div class="logo">
-          <img src="http://placehold.it/150x100" alt="Device">
+          <img src="http://placehold.it/150x100" alt="Device-Logo">
         </div>
         <a href="#">Войти</a>
         <a href="#">Сравнить</a>
         <a href="#">Корзина</a>
         <p>г. Москва, ул. Строителей, 15</p>
-        <nav class="main-menu">
+        <div class="main-menu">
           <ul>
             <li><a href="#">Доставка</a></li>
             <li><a href="#">Гарантия</a></li>
             <li><a href="#">Контакты</a></li>
           </ul>
-        </nav>
+        </div>
         <p>Тел.: +7 (495) 495-95-95</p>
         <div class="social-media">
-          <a href="#"></a>
-          <a href="#"></a>
-          <a href="#"></a>
+          <a href="#">Facebook</a>
+          <a href="#">Instagram</a>
+          <a href="#">Twitter</a>
         </div>
         <div class="html-academy-logo">
-          <a href="#"></a>
+          <a href="#"><span class="visually-hidden">HTML Academy</span></a>
         </div>
     </footer>
   </body>
