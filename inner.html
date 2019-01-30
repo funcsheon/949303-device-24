@@ -12,7 +12,7 @@
       <form action="#" method="post">
         <label for="search">Поиск по сайту</label>
         <input type="search" name="search" id="search">
-      </form>
+      </form> <!-- search -->
       <a href="#">Войти</a>
       <a href="#">Сравнить</a>
       <a href="#">Корзина</a>
@@ -34,71 +34,70 @@
           <li><a href="#">Моноподы для селфи</a></li>
         </ul>
       </nav>
-      <div class="filters">
-        <div class="price">
-          <form action="#" method="post">
-          <label for="price-range"><h2>Стоимость</h2></label>
-            0 <input type="range" id="price-range" name="price-range" min="0" max="10000" step="1"> 10000
-          </form>
-        </div> <!-- price -->
-        <div class="colors">
-        <h2>Цвет</h2>
-          <form action="#" method="post">
-            <input type="checkbox" name="color" id="color-field" checked>
-            <label for="color-field">Черный</label>
-            <input type="checkbox" name="color" id="color-field">
-            <label for="color-field">Белый</label>
-            <input type="checkbox" name="color" id="color-field" checked>
-            <label for="color-field">Синий</label>
-            <input type="checkbox" name="color" id="color-field" checked>
-            <label for="color-field">Красный</label>
-            <input type="checkbox" name="color" id="color-field">
-            <label for="color-field">Розовый</label>
-          </form>
-        </div><!-- colors-->
-        <div class="bluetooth">
-          <h2>Bluetooth</h2>
-            <form action="#" method="post">
-              <label>
-                <input type="radio" name="question-one" value="yes" checked>
-                Есть
-              </label>
-              <label>
-                <input type="radio" name="question-one" value="no">
-                Нет
-              </label>
-            </form>
-        </div> <!--bluetooth-->
+        <form action="#" method="post">
+          <fieldset class="filter">
+            <label for="price-range"><legend>Стоимость</legend></label>
+              0 <input type="range" id="price-range" name="price-range" min="0" max="10000" step="1"> 10000
+          </fieldset> <!-- price -->
+          <fieldset class="filter">
+            <legend>Цвет</legend>
+            <label><input type="checkbox" name="color" checked><span>Черный</span></label>
+            <label><input type="checkbox" name="color"><span>Белый</span></label>
+            <label><input type="checkbox" name="color" checked><span>Синий</span></label>
+            <label><input type="checkbox" name="color" checked><span>Красный</span></label>
+            <label><input type="checkbox" name="color"><span>Розовый</span></label>
+          </fieldset> <!-- color -->
+          <fieldset class="filter">
+            <legend>Bluetooth</legend>
+                <label><input type="radio" name="bluetooth-select" value="yes" checked>Есть</label>
+                <label><input type="radio" name="bluetooth-select" value="no">Нет</label>
+          </fieldset> <!-- bluetooth -->
+        </form>
         <a href="#">Показать</a>
-      </div><!--filters-->
       <div class="items">
         <div class="catalogue-item">
+          <div class="item-title">
+            <a href="#"><h2>Любительская селфи-палка</h2></a>
+            <p>500 руб.</p>
+          </div>
           <img src="http://placehold.it/150x100" alt="catalogue-item">
-          <a href="#">В корзину</a>
-          <a href="#">Добавить к сравнению</a>
-          <a href="#"><h2>Любительская селфи-палка</h2></a>
-          <p>500 руб.</p>
+          <div class="add-to-cart">
+            <a href="#">В корзину</a>
+            <a href="#">Добавить к сравнению</a>
+          </div>
         </div>
         <div class="catalogue-item">
+          <div class="item-title">
+            <a href="#"><h2>Профессиональная селфи-палка</h2></a>
+            <p>1500 руб.</p>
+          </div>
           <img src="http://placehold.it/150x100" alt="catalogue-item">
-          <a href="#">В корзину</a>
+            <div class="add-to-cart">
+            <a href="#">В корзину</a>
+          </div>
           <a href="#">Добавить к сравнению</a>
-          <a href="#"><h2>Профессиональная селфи-палка</h2></a>
-          <p>1500 руб.</p>
         </div>
         <div class="catalogue-item">
+          <div class="item-title">
+            <a href="#"><h2>Непотопляемая селфи-палка</h2></a>
+            <p>2500 руб.</p>
+          </div>
           <img src="http://placehold.it/150x100" alt="catalogue-item">
-          <a href="#">В корзину</a>
-          <a href="#">Добавить к сравнению</a>
-          <a href="#"><h2>Непотопляемая селфи-палка</h2></a>
-          <p>2500 руб.</p>
+          <div class="add-to-cart">
+            <a href="#">В корзину</a>
+            <a href="#">Добавить к сравнению</a>
+          </div>
         </div>
         <div class="catalogue-item">
+          <div class="item-title">
+            <a href="#"><h2>Селфи-палка «Следуй за мной»</h2></a>
+            <p>4900 руб.</p>
+          </div>
           <img src="http://placehold.it/150x100" alt="catalogue-item">
-          <a href="#">В корзину</a>
-          <a href="#">Добавить к сравнению</a>
-          <a href="#"><h2>Селфи-палка «Следуй за мной»</h2></a>
-          <p>4900 руб.</p>
+          <div class="add-to-cart">
+            <a href="#">В корзину</a>
+            <a href="#">Добавить к сравнению</a>
+          </div>
         </div>
       </div><!--items-->
     </main>
