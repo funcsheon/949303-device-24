@@ -52,8 +52,8 @@
         <form action="http://echo.htmlacademy.ru" method="post">
           <fieldset class="filter">
             <legend>Стоимость</legend>
-              <label><input type="text" name="price-range">1</label>
-              <label><input type="text" name="price-range">10000</label>
+              <label><input type="text" name="price-range-min" value="1">от</label>
+              <label><input type="text" name="price-range-max" value="10000">до</label>
           </fieldset> <!-- price -->
           <fieldset class="filter">
             <legend>Цвет</legend>
@@ -65,8 +65,8 @@
           </fieldset> <!-- color -->
           <fieldset class="filter">
             <legend>Bluetooth</legend>
-                <label><input type="radio" name="bluetooth-select" value="yes" checked>Есть</label>
-                <label><input type="radio" name="bluetooth-select" value="no">Нет</label>
+                <label><input type="radio" name="bluetooth-select" value="yes" checked><span>Есть</span></label>
+                <label><input type="radio" name="bluetooth-select" value="no"><span>Нет</span></label>
           </fieldset> <!-- bluetooth -->
         </form>
         <a href="#">Показать</a>
